@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: rgb(237, 252, 252);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: 90px;
+    font-size: 10px;
+    justify-content: center;
+
+}
+img{
+    border-radius: 30px;
+}
+.dan{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;    
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    padding: 20px;
+}
+.jon{
+    background-color: dimgrey;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;   
+    padding: 20px;
+}
+.kira{
+    background-color: white;
+    border-radius: 5px;
+     padding: 20px;
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+     
+}
+.jean{
+    background-color: white;
+    border-radius: 5px;
+     padding: 20px;
+      grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+
+}
+.pat{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+     padding: 20px;
+    grid-column: 2 / span 2;
+    grid-row: 2 span 2;
+}
+h3{
+    font-size: 15px;
+}
+p{
+    font-size: 9px;
+}
